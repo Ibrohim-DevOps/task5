@@ -1,0 +1,13 @@
+NAMESPACE        NAME     READY   STATUS    RESTARTS   AGE
+exam-abdumalik   nginx1   1/1     Running   0          7m29s
+exam-abdumalik   nginx2   1/1     Running   0          7m29s
+exam-ibrohim     nginx1   1/1     Running   0          2m27s
+exam-ibrohim     nginx2   1/1     Running   0          101s
+exam-o-toshev    nginx1   1/1     Running   0          22m
+exam-o-toshev    nginx2   1/1     Running   0          22m
+exam-rakhimjon   nginx1   1/1     Running   0          2m59s
+exam-rakhimjon   nginx2   1/1     Running   0          70s
+exam-xondamir    nginx1   1/1     Running   0          15m
+exam-xondamir    nginx2   1/1     Running   0          15m
+exam-zoyirjon    nginx1   1/1     Running   0          10m
+exam-zoyirjon    nginx2   1/1     Running   0          10m

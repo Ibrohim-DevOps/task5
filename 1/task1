@@ -1,0 +1,9 @@
+NAME              STATUS   AGE
+default           Active   25d
+exam-ibrohim      Active   48s
+exam-o-toshev     Active   44s
+ingress-nginx     Active   17d
+kube-node-lease   Active   25d
+kube-public       Active   25d
+kube-system       Active   25d
+special           Active   21d
