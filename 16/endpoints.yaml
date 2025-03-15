@@ -1,0 +1,41 @@
+addressType: IPv4
+apiVersion: discovery.k8s.io/v1
+endpoints:
+- addresses:
+  - 10.233.65.16
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: node1
+  targetRef:
+    kind: Pod
+    name: frontend-app-54c4b48d9-7dg5h
+    namespace: exam-ibrohim
+    uid: e1c7c641-85aa-459f-8bc3-03ca27751d46
+kind: EndpointSlice
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: "2025-03-14T15:14:07Z"
+  creationTimestamp: "2025-03-14T15:14:07Z"
+  generateName: frontend-service-
+  generation: 1
+  labels:
+    app: frontend-app
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    kubernetes.io/service-name: frontend-service
+  name: frontend-service-4j8xx
+  namespace: exam-ibrohim
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: frontend-service
+    uid: 98d63e93-341b-4359-bb5c-0ab45ed68af3
+  resourceVersion: "8420580"
+  uid: af3e615c-5543-463a-921f-988e206daa7e
+ports:
+- name: ""
+  port: 80
+  protocol: TCP

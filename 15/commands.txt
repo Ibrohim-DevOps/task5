@@ -1,0 +1,2 @@
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE
+ingress-nginx-controller   3/3     3            3           14d

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: cpu-limit-range
+  namespace: exam-ibrohim
+spec:
+  limits:
+  - type: Container
+    default:
+      cpu: 200m
+    defaultRequest:
+      cpu: 100m
+    max:
+      cpu: "1"
+    min:
+      cpu: 50m
+
